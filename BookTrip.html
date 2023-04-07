@@ -18,51 +18,54 @@
     <h2 style = 'color: white; text-align:center'>Your dream is within reach. Sign up Now!</h2><br>
     <!--<img style= 'float: right' src="rocket.webp">-->
         <body>
-    
-        <div class="container">
-         
-          <div class="row">
-            <div class="col-75">
-              First Name: <input type="text" id="fname" name="firstname" placeholder="First Name..">
+        <div class="container5">
+            <div class="shuttle">
+              <img style = 'width:50%' src="rocket-gc80baf7ae_1280.png">
             </div>
-          </div>
-          <div class="row">
-            <div class="col-75">
-              Last Name: <input type="text" id="lname" name="lastname" placeholder="Last Name..">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-75">
-                Email Address: <input type="text" id="email" name="email" placeholder="Email address...">
-            </div>
-          </div>
-          <div class="row">
+          <div class="container">
+          <div style = 'display: grid; align-items: center; grid-template-columns: 1fr 1fr 1fr; column-gap: 5px;' class = "text">
+            <div class="row">
               <div class="col-75">
-                Phone Number: <input type="tel" id="phone" name="phone" placeholder="Phone Number...">
+                <p style = 'color:white'>First Name: </p>
+                <input type="text" id="fname" name="firstname" placeholder="First Name..">
               </div>
-          </div>
-          <div class="row">
-              <div class="col-25">
-                  <label style = 'color:white' for="DOB">Date of Birth</label>
+            </div>
+            <div class="row">
+              <div class="col-75">
+                <p style = 'color:white'>Last Name: </p>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name..">
               </div>
+            </div>
+            <div class="row">
+              <div class="col-75">
+                <p style = 'color:white'>Email Address:  </p>
+                <input type="text" id="email" name="email" placeholder="Email address...">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                <p style = 'color:white'>Phone Number:</p>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number...">
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-75">
+                <p style = 'color:white'>Date of Birth:</p>
+                <input type="date" id="DOB" name="DOB">
+              </div>
+            </div>
+            <div class="row">
             <div class="col-75">
-              <input type="date" id="DOB" name="DOB">
+              <p style = 'color:white'>Pick a Week:</p>
+              <input type="week" id="week" name="week">
             </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-                <label style = 'color:white' for="week">Pick a Week</label>
-            </div>
-          <div class="col-75">
-            <input type="week" id="week" name="week">
           </div>
         </div>
-        <div class="row">
-            <div class="col-25">
-                <label style = 'color:white' for="guests">Number of Guests</label>
+          <div class="row">
+            <div class="col-75">
+              <p style = 'color:white'>Number of Guests:</p>
+              <input type="number" id="guests" name="guests">
             </div>
-          <div class="col-75">
-            <input type="number" id="guests" name="guests">
           </div>
         </div>
           <br>
@@ -87,9 +90,10 @@
     <option value="5">Jupiter - $700,000</option>
     </select><br>
     
-   <button style= 'width:100%' type="button" onclick=window.location.href="sumbit.html">Submit</button>
+   <br><button style= 'width:100%; height: 40px' type="button" onclick=window.location.href="sumbit.html">Submit</button><br>
     
     </body> 
+
     <br><footer style = "background-color: black; padding: 3px">
         <h1 style = "color:white; text-align: center">Reviews</h1>
         <li style = "color:white; text-align: center; font-size: 20px">"Great trip me and my husband had so much fun on our honey moon!"</li>

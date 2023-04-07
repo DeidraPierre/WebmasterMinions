@@ -32,3 +32,14 @@ h1 {
     background-color: white;
     color:black;
 }
+
+.weeks{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.schedule{
+    display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
