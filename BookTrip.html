@@ -13,18 +13,22 @@
             <a href="schedule.html">Itinerary</a>
         </div> <br>
         
-            </style>
+        
     <h1 style = 'color: white; text-align:center'>Become an Astronaut Today!</h1>
     <h2 style = 'color: white; text-align:center'>Your dream is within reach. Sign up Now!</h2>
-    
+    <img style= 'float: right' src="rocket.webp">
     <form action="/BookTrip.html">
-        <label style ='color: white; font-size: 40px'for="fname">First name:</label>
+        <label style = 'color: white; font-size: 40px' for = "dateof">Pick a Week</label>
+        <input type = "week" id="guests" name="dateof">
+        <br><label style ='color: white; font-size: 40px'for="fname">First name:</label>
         <input type = "text" id="fname" name="fname"><br>
         <label style ='color: white; font-size: 40px' for="lname">Last name:</label>
         <input type = "text" id="lname" name="lname"><br>
         <label style='color: white; font-size: 40px' for="email">Email:</label>
         <input type ="email" id="email" name="email"><br>
-        <label style ='color: white; font-size: 40px' for = "date">Date of Birth</label>
+        <label style='color: white; font-size: 40px' for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br><label style ='color: white; font-size: 40px' for = "date">Date of Birth</label>
         <input type = "date" id = "date" name = "Date"><br>
         <label style = 'color: white; font-size: 40px' for = "guests">Number of People:</label>
         <input type = "number" id="guests" name="guests">
@@ -33,17 +37,19 @@
     </body> 
         <br><label style ='color: white; font-size: 30px' for="space-names">Choose a Spaceship:</label>
     <select name="space-names" id="space-names">
-        <option value="1">space1</option> 
-    <option value="2">space2</option>
-    <option value="3">space3</option>
-    <option value="4">space4</option>
+        <option value="1">Select</option>
+        <option value="2">space1 - $3,500</option> 
+    <option value="3">space2 - $7,000</option>
+    <option value="4">space3 - $12,000</option>
+    <option value="5">space4 - $20,000</option>
     </select>
         <br><label style = 'color: white; font-size: 30px' for="space-names">Choose a Destination:</label>
     <select name="space-names" id="space-names">
-        <option value="1">Pluto</option>
-    <option value="2">Saturn</option>
-    <option value="3">Earth</option>
-    <option value="4">Jupiter</option>
+        <option value="1">Select</option>
+        <option value="2">Pluto - $300,000</option>
+    <option value="3">Saturn - $400,000</option>
+    <option value="4">Earth - $600,000</option>
+    <option value="5">Jupiter - $700,000</option>
     </select>
     <br><input type="submit" value="Submit">
     </form>
