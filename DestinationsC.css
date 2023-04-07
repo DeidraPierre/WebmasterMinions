@@ -1,0 +1,204 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+  
+  /* Style the main content */
+  main {
+    margin: 20px;
+  }
+  
+  /* Style the sections */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Style the headings */
+  h1, h2 {
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #333333;
+  }
+  
+  /* Style the form */
+  form {
+    margin-top: 20px;
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #1C1C1C;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #333333;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+  }
+  body {
+    background-image: url('DarkSpace.png');
+    background-size: cover;
+  }
+  body {
+    color: #FFFFFF;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #000000;;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content h3 {
+    margin-top: 0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropbtn {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .dropbtn:hover {
+    background-color: #333333;
+  }
+  .spaceship img {
+    max-width: 30%;
+    height: auto;
+  }
+  #spaceships {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .spaceship {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .spaceship h3 {
+    margin-top: 0;
+  }
+  
+  .spaceship img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .spaceship ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .spaceship li {
+    margin-bottom: 10px;
+  }
+  
+  .spaceship a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .spaceship a:hover {
+    background-color: #3e8e41;
+  }
