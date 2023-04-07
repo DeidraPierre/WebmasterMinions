@@ -5,12 +5,7 @@ body {
     padding: 0;
   }
   
-  /* Style the header */
-  header {
-    background-color: #1C1C1C;
-    color: #FFFFFF;
-    padding: 20px;
-  }
+  
   
   /* Main STUFFFF*/
   main {
@@ -22,45 +17,12 @@ body {
     margin-bottom: 40px;
   }
   
-  h1, h2 {
-    margin: 0;
-  }
   
   h1 {
     font-size: 48px;
     font-weight: bold;
   }
-  
-  h2 {
-    font-size: 36px;
-    font-weight: bold;
-  }
-  
-  /* Style the navigation menu */
-  nav {
-    margin-top: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-  }
-  
-  nav a {
-    color: #FFFFFF;
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    background-color: #333333;
-  }
+
   
   /* Style the form */
   form {
@@ -201,3 +163,22 @@ body {
   .spaceship a:hover {
     background-color: #3e8e41;
   }
+
+#navbar{
+  overflow:hidden;
+  text-align: center;
+}
+#navbar a{
+    display:inline-block;
+    color: white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size: 20px;
+    
+}
+
+#navbar a:hover{
+    background-color: white;
+    color:black;
+}
