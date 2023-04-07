@@ -1,5 +1,11 @@
 .mySlides {display:none;}
 
+body,html{
+    margin: 0;
+    height:100%
+}
+
+
 body{
     font-family: Arial, sans-serif;
 }
@@ -13,6 +19,7 @@ h1 {
     padding-top:20px;
     
 }
+
   
 
 /*Navigation Bar*/
