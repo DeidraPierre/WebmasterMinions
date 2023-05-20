@@ -1,4 +1,3 @@
-.mySlides {display:none;}
 
 html{
     scroll-behavior: smooth;
@@ -30,6 +29,8 @@ h1 {
 #navbar{
     overflow:hidden;
     text-align: center;
+    float:left;
+    padding-left:60px;
 }
 #navbar a{
     display:inline-block;
@@ -44,12 +45,28 @@ h1 {
     
 }
 
+
 #navbar a:hover{
     background-color: white;
     color:black;
 }
-
-
+*{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.news{
+    flex: 50%;
+    padding: 20px;
+    float: right;
+}
+.content{
+    flex: 50%;
+    padding: 20px;
+    float: left;
+}
 .footer{
     background-color: black;
 }
