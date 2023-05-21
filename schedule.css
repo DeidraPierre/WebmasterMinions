@@ -17,21 +17,27 @@ h1 {
 #navbar{
     overflow:hidden;
     text-align: center;
-}
-#navbar a{
+    float:left;
+    padding-left:60px;
+  }
+  #navbar a{
     display:inline-block;
     color: white;
     text-align:center;
-    padding:14px 16px;
+    padding:20px 16px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-decoration:none;
-    font-size: 20px;
+    font-size: 30px;
+    cursor: pointer;
     
-}
-
-#navbar a:hover{
+  }
+  
+  
+  #navbar a:hover{
     background-color: white;
     color:black;
-}
+  }
 
 .weeks{
     margin: 1rem;
